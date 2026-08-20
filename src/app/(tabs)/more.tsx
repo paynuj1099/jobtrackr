@@ -1,0 +1,16 @@
+import { Text, View } from "react-native";
+
+export default function MoreScreen() {
+  return (
+    <View
+      style={{
+        flex: 1,
+        backgroundColor: "#FFFFFF",
+        alignItems: "center",
+        justifyContent: "center",
+      }}
+    >
+      <Text>More</Text>
+    </View>
+  );
+}
